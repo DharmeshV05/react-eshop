@@ -1,0 +1,21 @@
+.Home {
+	min-height: 100vh;
+	background: #eae2b7;
+	width: 100vw;
+}
+
+.h1 {
+	font-weight: 300;
+	font-size: 3em;
+	margin: 0;
+	padding-top: 2em;
+	text-align: center;
+}
+
+.p {
+	font-weight: 300;
+	font-size: 1.5em;
+	margin: 0;
+	margin-top: 1em;
+	text-align: center;
+}

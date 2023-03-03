@@ -1,0 +1,21 @@
+body {
+	min-width: 100%;
+	min-height: 100%;
+	height: 100%;
+	margin: 0;
+	background-color: #003049;
+	overflow-y: overlay;
+	font-family: "Rubik", sans-serif;
+}
+
+html {
+	height: 100%;
+}
+
+.App {
+	height: 100%;
+}
+
+.AppContainer {
+	height: 100%;
+}

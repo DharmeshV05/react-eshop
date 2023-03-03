@@ -1,0 +1,140 @@
+.ItemsDisplay {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	font-weight: 300;
+	font-size: 0.9em;
+	background-color: #eae2b7;
+	padding: 3em;
+	min-height: 100vh;
+	justify-content: center;
+	flex-grow: 2;
+}
+
+.Item {
+	display: grid;
+	align-items: center;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 2.5fr 1fr 1fr;
+	grid-template-areas:
+		"img price "
+		"titl titl"
+		"btns btns ";
+	background-color: #f8f8f8;
+	align-items: center;
+	justify-content: left;
+	padding: 0.8em 1.5em 0.8em 1.5em;
+	margin: 1em 1em 1em 1em;
+	border-radius: 20px;
+	transition: 0.5s;
+	min-width: 80%;
+}
+
+.Item:hover {
+	background-color: #c7c7c7;
+}
+
+.ItemPhoto {
+	width: 100%;
+	grid-area: img;
+	border-radius: 20%;
+	justify-self: left;
+}
+
+.ItemTitle {
+	font-weight: 300;
+	grid-area: titl;
+	text-align: center;
+}
+
+.price {
+	grid-area: price;
+	margin-left: 1em;
+	justify-self: center;
+}
+
+.itemButtons {
+	font-family: "Rubik", sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1em;
+	grid-area: btns;
+	white-space: nowrap;
+}
+
+.detailButton,
+.buyButton {
+	border: none;
+	background-color: #fcbf49;
+	border-radius: 20px;
+	font-size: 1em;
+	font-weight: 300;
+	padding: 0.7em 1.2em 0.7em 1.2em;
+	transition: background-color 0.5s;
+	min-width: fit-content;
+	max-width: 40%;
+	text-decoration: none;
+	color: black;
+}
+
+.detailButton:hover,
+.buyButton:hover {
+	background-color: #f77f00;
+}
+
+.ChooseCategory {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 2;
+	min-height: 100vh;
+	min-width: 80vw;
+	background-color: #eae2b7;
+	align-items: center;
+	align-self: center;
+	margin: auto;
+	text-align: center;
+}
+
+.h1 {
+	font-weight: 300;
+	font-size: 2em;
+	margin: 0;
+	padding-top: 2em;
+	text-align: center;
+}
+
+.p {
+	font-weight: 300;
+	font-size: 1.5em;
+	margin: 0;
+	margin-top: 1em;
+	text-align: center;
+}
+
+.OnSale {
+	min-width: 830px;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.dateOnSale {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: auto;
+	font-size: 1.5em;
+	padding-top: 2em;
+	align-self: center;
+	text-align: center;
+	background-color: #eae2b7;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.timeCounter {
+	font-weight: 300;
+	padding-top: 1em;
+	text-align: center;
+	width: 500px;
+}
