@@ -45,6 +45,7 @@ function ItemsDisplay(props) {
 											description: item.description,
 											image: item.image,
 											id: item.id,
+											
 										},
 									}}
 									className={styles.detailButton}

@@ -1,8 +1,11 @@
 .Home {
-	min-height: 100vh;
-	background: #eae2b7;
-	width: 100vw;
+	background-image: url("main.png");
+    background-position: 50%;
+    background-size: 455px;
+    background-repeat: no-repeat;
+	height: 50rem;
 }
+
 
 .h1 {
 	font-weight: 300;
